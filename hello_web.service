@@ -1,0 +1,13 @@
+[Unit]
+Description=service file to start your node application and should restart the service on failure.
+After=network-online.target
+
+[Service]
+User=morteza
+Group=morteza
+Type=notify
+ExecStart=/home/morteza/.volta/bin/node /home/morteza/2420-assignment-2/src/index.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
