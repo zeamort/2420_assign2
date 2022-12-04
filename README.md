@@ -12,7 +12,7 @@ This was done by following this video guide: https://vimeo.com/775412708/4a219b3
 
 ## Step 2: Create a new regular user on both of your droplets
 
-Regular user made for each droplet with 
+Regular user made for each droplet according to the following video guide: https://vimeo.com/758870226/f75da348fc?embedded=true&source=vimeo_logo&owner=17609105
 
 ## Step 3: Install a Web server with Caddy
 First install Caddy in your server:
